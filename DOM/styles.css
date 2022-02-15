@@ -1,0 +1,18 @@
+.texto {
+  width: 200px;
+  height: 2000px;
+  overflow: auto;
+  background-color: #ccc;
+}
+
+.btn {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  padding: 6px;
+  background-color: blueviolet;
+  cursor: pointer;
+  border: none;
+  color: snow;
+  transition: 0.5s;
+}
