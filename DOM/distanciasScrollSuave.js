@@ -15,3 +15,16 @@ function scrollScreenTop() {
     behavior: "smooth",
   });
 }
+
+// Criando uma funcao que vai verificar toda vez que o usuario rolar a página
+function checkScroll(event) {
+  if (window.scrollY === 0) {
+    document.querySelector(".btn").style.display = "none";
+  } else {
+    document.querySelector(".btn").style.display = "block";
+  }
+}
+
+// um evento que irá monitorar o scroll da tela, sempre que ouver modificação
+
+window.addEventListener("scroll", checkScroll);

@@ -14,5 +14,6 @@
   cursor: pointer;
   border: none;
   color: snow;
-  transition: 0.5s;
+  transition: 400ms;
+  display: none;
 }
