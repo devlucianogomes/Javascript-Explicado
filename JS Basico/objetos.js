@@ -29,3 +29,14 @@ carro.acelerar();
 
 // USO DO THIS
 // this faz referencia ao proprio elemento que está em contexto, mas se atente, ele existe DENTRO DO OBJETO
+
+// Outra forma de fazermos a lista, agora com varios filmes
+let filmes = [
+  { nome: "Resident Evil", ano: 2021 },
+  { nome: "Invocação do mal 3", ano: 2021 },
+];
+
+// Acessando...
+console.log(filmes[0]); // trazendo o primeiro filme
+console.log(filmes[0].nome); // nome
+console.log(filmes[0].ano); // ano
