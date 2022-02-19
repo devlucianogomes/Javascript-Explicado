@@ -22,3 +22,18 @@ console.log(nome.substr(8, 5));
 // SUBSTITUIR textos específicos em uma String
 // O replace recebe 2 parametros, o primeiro é o item que quero encontrar, e o segundo é o valor que quero colocar no lugar, lembrando que a string depois que alterada DEVE SER ARMAZENADA em uma nova Variável
 console.log(nome.replace("Gomes", "Sobrenome"));
+
+// letras MAIÚSCULAS
+console.log(nome.toUpperCase());
+
+// letras minúsculas
+console.log(nome.toLowerCase());
+
+// REMOVER ESPAÇOS
+console.log(nome.trim());
+
+// Saber qual o caractere que está em determinada posição
+console.log(nome.charAt(2));
+
+// TRANSFORMAR string em array. O split transforma a string em array, e com o parametro devo colcoar o identificador para separar os itens, ou seja, no exemplo abaixo, onde eu encontrar um espaço, eu crio um item diferente
+console.log(nome.split(" "));
