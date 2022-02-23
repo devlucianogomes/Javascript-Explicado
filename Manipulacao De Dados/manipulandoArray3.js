@@ -52,3 +52,7 @@ let usuario = usuarios.find(function (item) {
 });
 
 console.log(usuario);
+
+const numeros = [5, 12, 8, 130, 6];
+const buscar = numeros.find((item) => item > 10);
+console.log(buscar);
